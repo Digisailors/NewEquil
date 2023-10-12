@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Equil  Architecture and Interior Design  | Contact</title>
+<title>Equil  Architecture and Interior Design</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -150,7 +150,7 @@
     
 	<!--Left Fixed Info Bar-->
     <div class="left-info-bar">
-		<div class="number"> CALL US:9487259687</div>
+		<div class="number"> CALL US:9487259687<br><br></div>
 		<ul class="social-icon-one">
 			<li><a href="#"><span class="fa fa-facebook"></span></a></li>
 			<li><a href="#"><span class="fa fa-linkedin"></span></a></li>
@@ -179,7 +179,7 @@
     <!--End Map Section-->
      
     <!--Contact Section-->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7899.230171693044!2d77.3364538!3d8.1406095!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04fb47fc6aba4d%3A0x5377dd93470e046f!2sEquil%20-%20Architectural%20Innovation!5e0!3m2!1sen!2sin!4v1657085557369!5m2!1sen!2sin" width="1165" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7899.230171693044!2d77.3364538!3d8.1406095!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04fb47fc6aba4d%3A0x5377dd93470e046f!2sEquil%20-%20Architectural%20Innovation!5e0!3m2!1sen!2sin!4v1657085557369!5m2!1sen!2sin" width="1550" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <section class="contact-section" style="background-image:url(images/resource/pattern-7.png)">
 
     	<div class="auto-container">
@@ -194,32 +194,34 @@
                         
                         <!-- Contact Form -->
                         <div class="contact-form">
-                        	<div class="required">Fields marked with an * are required</div>
+                        	<!-- <div class="required">Fields marked with an * are required</div> -->
                             <!--Contact Form-->
-                            <form method="post" action="" id="contact-form">
-                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeXTZso9bZ4WCSbkS7SQCtU98GkuCst5-aubCbHCBcgxY3ULA/viewform?embedded=true" width="640" height="718" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                            <!-- <form method="post" action="" id="contact-form">
+                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeXTZso9bZ4WCSbkS7SQCtU98GkuCst5-aubCbHCBcgxY3ULA/viewform?embedded=true" width="640" height="718" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
 
-                                <!-- <div class="form-group">
-                                	<label class="field-label">Name *</label>
-                                    <input type="text" name="name" placeholder="" required>
+                                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  { alert('Thanks for showing interest, Our team will contact you.'); window.location='http:'}"></iframe> 
+                                <form id="contact-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeusjkaKAwy_g7zy5eW2nWKXwYhY754unvI9bT44I_mZZSVKw/formResponse"  target="hidden_iframe" method="POST" id="mG61Hd"onsubmit="return validateForm();"class="contact-page-form mt--30">    
+
+                                <div class="form-group">
+                                	<input name="entry.980503571" id="name" type="text" placeholder="Name*" required>
                                 </div>
                                 
                                 <div class="form-group">
-                                	<label class="field-label">Email *</label>
-                                    <input type="email" name="email" placeholder="" required>
+                                    <input name="entry.611705980" id="email" type="email" placeholder="Email*" required>
                                 </div>
                                 
                                 <div class="form-group">
-                                	<label class="field-label">Message *</label>
-                                    <textarea name="message" placeholder=""></textarea>
+                                    <textarea name="entry.129753035" id="message" placeholder="Type Your Message*" required></textarea>
                                 </div>
                                 
                                 <div class="form-group">
                                     <button class="theme-btn btn-style-two" type="submit" name="submit-form">Submit now</button>
-                                </div> -->
+                                </div>
                             </form>
                                 
                         </div>
+
+                        
                         <!--End Contact Form --> 
                         
                     </div>
