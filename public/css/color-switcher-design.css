@@ -126,7 +126,7 @@
   background: #ff4136 none repeat scroll 0 0;
 }
 
-.color-trigger {
+/* .color-trigger {
   background: #d9b256 none repeat scroll 0 0;
   cursor: pointer;
   height: 50px;
@@ -144,7 +144,7 @@
   top: 0px;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2); */
 }
 
 .color-trigger i {
